@@ -58,7 +58,7 @@ def updateMsgs(client, message,redis):
   
   games = {"rps.py":"🧱📃✂️","xo.py":"❌ ⭕️","ring.py":"👊🏻💍🖐🏻"}
   if text and re.search("^الالعاب$|^العاب$",text) and not redis.sismember("{}Nbot:gpgames".format(BOT_ID),chatID):
-    tx = "🕹꒐ اليك الالعاب المقدمه من (<a href=\"http://t.me/"+BBTBB+"\">VeerV2</a>)"
+    tx = "🕹꒐ اليك الالعاب المقدمه من (<a href=\"http://t.me/"+BBTBB+"\">JOKER</a>)"
     onlyfiles = [f for f in listdir("files") if isfile(join("files", f))]
     array = []
     if not onlyfiles:
